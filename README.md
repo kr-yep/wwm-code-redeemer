@@ -1,5 +1,7 @@
 # 燕雲兌換助手
 
+專案狀態：已完成（2026-09-22）。
+
 適用於 Steam 繁中版《燕雲十六聲》的 Windows 獨立程式。自動收集你設定的 Discord 討論串中的文字兌換碼、逐筆兌換，並依角色保存進度；下次開啟可接續處理。
 
 不需要 Codex、Computer Use、Python、API 金鑰或 Discord Token。目前版本為 **v0.5.2**。
