@@ -1,0 +1,11 @@
+data/
+bin/
+work/
+outputs/
+obj/
+.vs/
+.env
+.env.*
+*.user
+*.suo
+*.pdb
