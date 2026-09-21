@@ -3,11 +3,11 @@ using System.IO;
 using System.Threading;
 using System.Windows.Forms;
 [assembly:System.Reflection.AssemblyTitle("燕雲兌換助手")]
-[assembly:System.Reflection.AssemblyVersion("0.5.1.0")]
-[assembly:System.Reflection.AssemblyFileVersion("0.5.1.0")]
+[assembly:System.Reflection.AssemblyVersion("0.5.2.0")]
+[assembly:System.Reflection.AssemblyFileVersion("0.5.2.0")]
 namespace WwmRedeemer {
  public static class Program {
-  public const string Version="0.5.1";
+  public const string Version="0.5.2";
   [STAThread] public static void Main(string[] args) {
    if(args.Length==2 && args[0]=="--restart-from"){
     int parent;if(Int32.TryParse(args[1],out parent))try{using(var process=System.Diagnostics.Process.GetProcessById(parent)){if(!process.WaitForExit(15000)){MessageBox.Show("原助手尚未關閉，請稍後重新開啟。");return;}}}catch(ArgumentException){}
